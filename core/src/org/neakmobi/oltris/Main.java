@@ -1,6 +1,7 @@
 package org.neakmobi.oltris;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 
 public class Main extends Game {

@@ -57,6 +57,7 @@ class GameScreen: Screen {
     }
 
     override fun resize(width: Int, height: Int) {
+
         Controller.screenWidth = width.toFloat()
         Controller.screenHeight = height.toFloat()
         Renderer.resize(width, height)

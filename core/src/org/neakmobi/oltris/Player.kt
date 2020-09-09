@@ -19,10 +19,11 @@ object Player {
 
         puzzle = Puzzle()
 
-        if(!file.exists()) {
+        //if(!file.exists()) {
+        if(true) {
             templateBelow = true
             val puzzleBuilder = PuzzleBuilder()
-            puzzleBuilder.genPuzzle(1)
+            puzzleBuilder.genPuzzle(19)
             puzzleBuilder.setPuzzle(puzzle)
         } else {
             val arr = file.readBytes()
